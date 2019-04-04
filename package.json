@@ -1,0 +1,30 @@
+{
+    "name": "pg-functions-sync",
+    "version": "1.0.0",
+    "description": "Develop postgres functions with ease",
+    "main": "index.js",
+    "bin": "build/cli.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "tsc": "tsc",
+        "tsc:w": "tsc --watch",
+        "postinstall": "npm run tsc"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/fs-extra": "^5.0.5",
+        "@types/node": "^11.13.0",
+        "@types/pg": "^7.4.14",
+        "@types/signale": "^1.2.1",
+        "typescript": "^3.4.1"
+    },
+    "dependencies": {
+        "chokidar": "^2.1.5",
+        "commander": "^2.20.0",
+        "fs-extra": "^7.0.1",
+        "pg": "^7.9.0",
+        "signale": "^1.4.0"
+    }
+}
